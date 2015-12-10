@@ -3,10 +3,10 @@ android:
    components:
    - android-22
    - tools
-   - build-tools-23.0.2
+   - build-tools-22.0.1
    - extra
 
 jdk: oraclejdk7
 
 script:
-  - ./gradlew clean build connectedCheck
+  - ./gradlew clean build connectedCheck --info
