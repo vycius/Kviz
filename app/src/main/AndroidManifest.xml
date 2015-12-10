@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="karolis.vycius.kviz">
+
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Riestainis.FullScreen.NoTitleBar">
+        <activity
+            android:name="karolis.vycius.kviz.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="karolis.vycius.kviz.QuestionsActivity"
+            android:label="@string/title_activity_questions"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="karolis.vycius.kviz.About"
+            android:label="@string/title_activity_about"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Riestainis.FullScreen"></activity>
+        <activity
+            android:name="karolis.vycius.kviz.RecordsActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Riestainis.FullScreen"></activity>
+        <activity
+            android:name="karolis.vycius.kviz.GameFinished"
+            android:label="@string/title_activity_game_finished"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Riestainis.FullScreen"></activity>
+        <activity
+            android:name="karolis.vycius.kviz.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Riestainis.FullScreen"></activity>
+        <activity
+            android:name="karolis.vycius.kviz.RegistrationActivity"
+            android:label="@string/title_activity_registration"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Riestainis.FullScreen"></activity>
+
+        <provider
+            android:name="karolis.vycius.kviz.database.DBProvider"
+            android:authorities="karolis.vycius.kviz.database.DBProvider"
+            android:exported="false"></provider>
+    </application>
+
+</manifest>

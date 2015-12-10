@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/classic_white"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/classicHeaderText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/classic_header_background"
+        android:text="@string/gameStatisticsSumaSummarium" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:background="@color/classic_white"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="5dp" >
+
+        <karolis.vycius.kviz.widget.AutoFitTextView
+            android:id="@+id/gameStatisticsPoints"
+            style="@style/game_finished_number_text"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.65"
+            android:gravity="center_horizontal"
+            android:text="1210"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <karolis.vycius.kviz.widget.AutoFitTextView
+            style="@style/smallTextStyle"
+            android:id="@+id/gameStatisticsPointsText"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:gravity="center_horizontal"
+            android:text="@string/gameStatisticsPoints" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <karolis.vycius.kviz.widget.AutoFitTextView
+                    android:id="@+id/gameStatisticsLevel"
+                    style="@style/game_finished_number_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.7"
+                    android:gravity="center_horizontal"
+                    android:text="1" />
+
+                <karolis.vycius.kviz.widget.AutoFitTextView
+                    style="@style/smallTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.3"
+                    android:gravity="center_horizontal"
+                    android:text="lygis" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <karolis.vycius.kviz.widget.AutoFitTextView
+                    android:id="@+id/gameStatisticQuestionNumber"
+                    style="@style/game_finished_number_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.7"
+                    android:gravity="center_horizontal"
+                    android:text="10" />
+
+                <karolis.vycius.kviz.widget.AutoFitTextView
+                    android:id="@+id/game_finished_question_tv_text"
+                    style="@style/smallTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.3"
+                    android:gravity="center_horizontal"
+                    android:text="klausimas" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <karolis.vycius.kviz.widget.AutoFitTextView
+                    android:id="@+id/gameStatisticKIQ"
+                    style="@style/game_finished_number_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.7"
+                    android:gravity="center_horizontal"
+                    android:text="100" />
+
+                <karolis.vycius.kviz.widget.AutoFitTextView
+                    style="@style/smallTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.3"
+                    android:gravity="center_horizontal"
+                    android:text="KIQ" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        style="@style/classicHeaderText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/classic_header_background"
+        android:text="@string/gameStatisticsFactHeader" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4" >
+
+        <TextView
+            android:id="@+id/gameStatisticsFactTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:text="@string/gameStatisticsFactHeader"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </ScrollView>
+
+</LinearLayout>

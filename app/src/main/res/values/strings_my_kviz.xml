@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="title_activity_login">Prisijungimas</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_user_or_mail">Vardas arba el. paštas</string>
+    <string name="prompt_password">Slaptažodis</string>
+    <string name="action_sign_in">Prisijungti</string>
+    <string name="action_sign_in_short">Prisijungti</string>
+    <string name="login_progress_signing_in">Prisijungiama&#8230;</string>
+    <string name="register_progress_signing_in">Registruojama&#8230;</string>
+    <string name="error_invalid_password">Per trumpas slaptažodis</string>
+    <string name="error_field_required">Laukelis privalomas</string>
+
+    <!-- Registration Strings -->
+    <string name="prompt_user_name">Vartotojo vardas</string>
+    <string name="prompt_mail">El. paštas</string>
+    <string name="action_register">Registruotis</string>
+    <string name="error_invalid_email">El. pašto adresas įvestas blogai</string>
+
+</resources>

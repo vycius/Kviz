@@ -1,0 +1,7 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="emptySpace">#e3e3e3</color>
+    <color name="classic_white">#f5f4f0</color>
+
+</resources>

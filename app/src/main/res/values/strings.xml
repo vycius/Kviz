@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Titles -->
+    <string name="app_name">Kviz!</string>
+    <string name="hello_world">Hello</string>
+    <string name="title_activity_questions">QuestionsActivity</string>
+    <string name="title_activity_about">Taisyklės</string>
+    <string name="title_activity_records">Rekordai</string>
+    <string name="title_activity_registration">Registracija</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Helps -->
+    <string name="HelpRightWay">Teisingas kelias</string>
+    <string name="HelpFiftyFifty">50:50</string>
+    <string name="HelpVeto">Klausimo veto</string>
+    <string name="HelpRightWayDescription">Pagalba, kuri nepalieka šanso suklysti, nes pašalina 3 neteisingus atsakymo variantus. Gausi 75% už klausimą skiriamų taškų.</string>
+    <string name="HelpFiftyFiftyDescription">Ar tikrai pasiryši pasinaudoti šios pagalbos teikiama nauda? Nors ir gausi 50% už klausimą skiriamų taškų, gali paslysti, nes iš keturių variantų paliekami du.</string>
+    <string name="HelpVetoDescription">Būk kaip LDK bajoras ir pasinaudok veto teise! Tau nepatinkantis klausimas bus pakeistas ekvivalenčiu. Ir dar liks 75% klausimo taškų!</string>
+
+    <!-- QuestionActivity -->
+    <string name="gameInfoDialogTitle">Trumpa informacija</string>
+    <string name="gameInfoDialogButtonText">Super!</string>
+    <string name="gameInfoDialogMessage">%1$d %4$s\n%2$d lygis\n%3$d klausimas</string>
+    <string name="helpsSign">\?</string>
+    <string name="questionOfQuestion">1</string>
+    <string name="buttonKlausimas">Klausimas</string>
+    <string name="buttonAtsakymas">Atsakymas</string>
+    <string name="arrowDescription">Pagalbos</string>
+    <string name="laikas">9:59</string>
+    <string name="gameQuestionsGenerating">Klausimai generuojami</string>
+
+    <!-- For all activities -->
+    <string name="kraunama">Kraunama&#x2026;</string>
+
+    <string-array name="spinnerPeriods">
+        <item>Visų laikų</item>
+        <item>Šios paros</item>
+        <item>Šios savaitės</item>
+        <item>Šio mėnesio</item>
+        <item>Vakar dienos</item>
+    </string-array>
+
+    <!-- Rules -->
+
+    <string name="rules" formatted="false">Visam žaidimui skiriama 10 minučių\n\n
+		Žaidimo metu 6 lygiuose užduodami 27 klausimai:\n
+		• 1 lygis - 2 klausimai\n
+		• 2 lygis - 3 klausimai\n
+		• 3 lygis - 4 klausimai\n
+		• 4 lygis - 5 klausimai\n
+		• 5 lygis - 6 klausimai\n
+		• 6 lygis - 7 klausimai\n\n
+		Už kiekvieną klausimą žaidėjas gauna 10•klausimo lygis taškų\n\n
+		Pagalbos:\n
+		• „Teisingas kelias“ - iš keturių variantų palieka vieną, už klausimą 25% taškų;\n
+		• „Klausimo veto“ - parenkamas kitas klausimas iš to paties lygio, už klausimą 75% taškų;\n
+		• „50/50“ - iš keturių atsakymo variantų paliekami du, už klausimą 50% taškų;\n\n
+		Žaidime galima padaryti tik vieną klaidą. Suklydus - game over :)	</string>
+	<string name="rulesPlay">Žaisti</string>
+
+    <!-- MainActivity -->
+    <string name="play">Žaisti</string>
+    <string name="Rules">Taisyklės</string>
+    <string name="Records">Rekordai</string>
+    <string name="MyKviz">Mano Kviz!</string>
+    <string name="loginLoginError">Nepavyko prisijungti prie Kviz! serverio.\nPatikrinkite interneto ryšį arba susisiekite su programėlės kūrėjais!</string>
+    <string name="loginLoginErrorWithJson">Nepavyko prisijungti dėl Kviz! kaltės!\nPraneškite apie problemą Kviz! programėlės kūrėjams!</string>
+    <!-- Sidebar online -->
+    <string name="sidebarORegisterButton">Registruotis</string>
+    <string name="sidebarOLoginButton">Prisijungti</string>
+    <string name="sidebarOdisconnect">Atsijungti</string>
+    <string name="sidebarOpreferences">Nustatymai</string>
+    <string name="sidebarOExit">Grįžti</string>
+    <string name="sidebarOnlineRateApp">Įvertinti</string>
+    <string name="sidebarOnlineKvizWebsite">Kviz.lt</string>
+    <string name="sidebarKvizEmail">Pasiūlymai</string>
+    <string name="kvizGooglePlayUrlMarket">market://details?id=karolis.vycius.kviz</string>
+    <string name="kvizGooglePlayUrl">http://play.google.com/store/apps/details?id=karolis.vycius.kviz</string>
+    <string name="kvizWebsiteUrl">http://www.kviz.lt</string>
+    <string name="kvizEmail">info@kviz.lt</string>
+    <string name="title_activity_records_activity">Records_activity</string>
+
+    <!-- Records -->
+    <string name="recordsLocaleTitle">Lokalūs</string>
+    <string name="recordsSearchTitle">Ieškoti</string>
+    <string name="recordsPeriodSelectorTitle">Laikotarpis</string>
+    <string name="recordsLocaleEdit">Redaguoti</string>
+    <string name="recordsGlobalTitle">Globalūs</string>
+    <string name="recordsSearchHint">Ieškokite&#8230;</string>
+    <string name="recordsGlobalNoInternet">Norėdami matyti globalius rekordus prisijunkite prie interneto!</string>
+    <string name="recordsGlobalError">Nepavyko atsiųsti rekordų!</string>
+    <string name="recordsActionBarDelete">Ištrinti</string>
+    <string name="recordsActionBarSelected">Pasirinkote %1$d</string>
+    <string name="recordsRecordsErasing">Pasirinkti rekordai trinami</string>
+    <string name="recordsNoLocalRecords">Pasirinktame laikotarpyje rekordų nėra.</string>
+
+    <!-- Game finished -->
+    <string name="gameFinishedTabAnswer">Atsakymas</string>
+    <string name="gameFinishedTabStatistics">Statistika</string>
+    <string name="gameFinishedStartNewGame">Žaisti dar kartą</string>
+    <string name="gameStatisticsSumaSummarium">SUMMA SUMMARIUM</string>
+    <string name="gameStatisticsFactHeader">AR ŽINOJAI?</string>
+    <string name="gameStatisticsPoints">taškai</string>
+    <string name="gameStatisticsLevel">lygis</string>
+    <string name="gameStatisticsQuestionNumber">klausimas</string>
+    <string name="gameStatisticsKIQ">KIQ</string>
+    <string name="gameFinishedSaveDialogSave">Išsaugoti</string>
+    <string name="gameFinishedSaveDialogNotSave">Atšaukti</string>
+    <string name="gameFinishedDefaultName">Kvizeris</string>
+    <string name="gameFinishedDialogText">Surinkote %1$d %2$s</string>
+    <string name="gameFinishedPointsNotFullWord">tašk</string>
+    <string name="gameFinishedDialogNameHint">Įveskite vardą</string>
+    <string name="gameFinishedShowRecords">Rekordai</string>
+    <string name="gameFinishedShare">Dalintis</string>
+    <string name="gameFinishedShareSubject">Kviz! rekordas</string>
+    <string name="gameFinishedShareText">Žaisdamas Kviz! surinkau %1$d %2$s ir pasiekiau %3$d lygį!</string>
+    <string name="pointsWordNotFull">tašk</string>
+
+    <!-- Error -->
+    <string name="errorErrorTitle">Error title</string>
+    <string name="errorErrorDescription">Error description</string>
+    <string name="errorErrorLocation">Error location</string>
+    <string name="title_activity_game_finished">Žaidimo pabaiga</string>
+    <string name="title_activity_my_kviz">MyKvizActivity</string>
+    <string name="lastNonAnsweredQuestion">NEATSAKYTAS KLAUSIMAS</string>
+    <string name="gameFinishedLastQuestionDesc">PAAIŠKINIMAS</string>
+    <string name="gameFinishedLastQuestionNoDesc">Šis klausimas neturi paaiškinimo.</string>
+
+</resources>

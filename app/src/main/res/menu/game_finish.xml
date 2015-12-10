@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/gameFinsihShowRecords"
+        android:icon="@drawable/ic_trophy"
+        android:showAsAction="always"
+        android:title="@string/gameFinishedShowRecords"
+        android:orderInCategory="2"/>
+    <item
+        android:id="@+id/gameFinsihShareRecord"
+        android:actionProviderClass="com.actionbarsherlock.widget.ShareActionProvider"
+        android:showAsAction="always"
+        android:title="@string/gameFinishedShare"
+        android:orderInCategory="1"/>
+
+</menu>

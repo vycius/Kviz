@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/rulesShowRecords"
+        android:icon="@drawable/ic_trophy"
+        android:showAsAction="always"
+        android:title="@string/gameFinishedShowRecords"/>
+    <item
+        android:id="@+id/rulesPlay"
+        android:icon="@drawable/ic_joystick"
+        android:showAsAction="always"
+        android:title="@string/rulesPlay"/>
+
+</menu>
